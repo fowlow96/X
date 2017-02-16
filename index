@@ -1,0 +1,315 @@
+<style>
+body{
+background-color:#000000;
+}
+
+body{
+background-color:#000000;
+}
+
+::-webkit-scrollbar {width: 2px; height: 2px; border-radius: 10px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #87ceeb;}
+
+#box {
+position:absolute;
+width:50%;
+height:10%;
+top:5%;
+left:25%;
+}
+
+#box1 {
+position:absolute;
+width:50%;
+height:10%;
+top:85%;
+left:25%;
+}
+
+#box2 {
+position:absolute;
+width:20%;
+height:32%;
+top:15%;
+left:28%;
+background:rgba(131, 252, 252, 0.72);
+border:1px solid #83fcfc;
+border-radius:10%;
+-webkit-box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+-moz-box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+}
+
+#box3 {
+position:absolute;
+width:20%;
+height:32%;
+top:52%;
+left:28%;
+background:rgba(131, 252, 252, 0.72);
+border:1px solid #83fcfc;
+border-radius:10%;
+-webkit-box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+-moz-box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+}
+
+#box4 {
+padding:10px;
+position:absolute;
+width:20%;
+height:67%;
+top:15%;
+left:51%;
+background:rgba(131, 252, 252, 0.72);
+border:1px solid #83fcfc;
+border-radius:10%;
+-webkit-box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+-moz-box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+box-shadow: 0px 0px 19px 1px rgba(255,255,255,0.8);
+}
+
+#box5{
+overflow:auto;
+padding:10px;
+width:90.5%;
+height:94%;
+margin-top:2%;
+margin-left:2%;
+color:#ffffff;
+font-size:105%;
+font-family:Arial;
+}
+
+.tabs{
+display:block;
+width:100%;
+height: 7%;
+margin-top: 8%;
+text-align:center;
+font-size: 150%;
+color: #ffffff;
+font-family: Calligraffitti;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+color: #cccccc;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10 {
+display:none;
+}
+
+h1 {
+font-family:Calligraffitti;
+color:#cccccc;
+font-size:150%;
+text-align:center;
+}
+
+b {
+font-family:Calligraffitti;
+color:#cccccc;
+font-size:120%;
+}
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('box5').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('box2').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="box">
+<img style="width:100%;height:100%;" src="http://i.imgur.com/1sIu8G9.png"/>
+</div>
+
+<div id="box1">
+<img style="width:100%;height:100%;" src="http://i.imgur.com/1sIu8G9.png"/>
+</div>
+
+<div id="box2">
+<img style="height:100%;margin-left:10%;" src="http://i.imgur.com/lqnrqkC.png"/>
+</div>
+
+<div id="box3">
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab2')">Details</span>
+<span class="tabs" onClick="changeNavigation ('tab3');changeNavigation1 ('tab4')">History</span>
+<span class="tabs" onClick="changeNavigation ('tab5');changeNavigation1 ('tab6')">Racials</span>
+<span class="tabs" onClick="changeNavigation ('tab7');changeNavigation1 ('tab8')">Magic Trees</span>
+<span class="tabs" onClick="changeNavigation ('tab9');changeNavigation1 ('tab10')">Items</span>
+</div>
+
+<div id="box4">
+<div id="box5">
+<h1>Basic Information</h1>
+<b>Name:</b> X<br>
+<b>Pronunciation:</b> Key<br>
+<b>Age:</b> Ageless. Appears around early twenties.<br>
+<b>Gender:</b> Female<br>
+<b>Sexuality:</b> Demisexual<br>
+<b>Species:</b> Dimensional Guardian<br>
+<b>Race:</b> Will-o-the-Wisp<br>
+<b>Talents:</b> Singing, Dancing<br>
+<b>Instruments:</b> Vocal, Ocarina<br>
+<b>Occupation:</b> Teacher at <a href="http://ulreich.weebly.com">Ulreich University</a><br>
+<b>Magic Trees:</b> Faith, Spiritualism<br>
+<b>Rank:</b> High Mage, Mage<br>
+<b>Points:</b> 25<br>
+<b>Height:</b> 5'6"<br>
+<b>Weight:</b> 120 lbs.
+</div>
+</div>
+
+<div id="tab1">
+<h1>Detailed Information</h1>
+<b>Appearance</b><br>
+In the sunlight, X has a tangible humanoid body. She is thin and fragile to the naked eye with very pale skin and very long stark white hair. While her hourglass figure and feminine body parts are fairly curvy, she weighs no more than one-hundred-twenty pounds. Her facial structure is very elegant in nature, with strong high cheekbones, elvish style pointed ears, tiny slightly upturned button nose, and full soft pink lips. Her wide eyes stand out while almost blending in; her irises the palest shade of liquid silver, bright enough to stand out against the whites of her eyes but blend in with the rest of her appearance.<br><br>
+In the moonlight and the darkness of the night, her true appearance shines through. She is nothing more than an embodiment of pale creamy blue--almost white--energy and is often mistaken for a ghost or a spirit. She keeps the same silhouette she has during the day but now weighs nothing more than a feather and is not tangible by normal means.
+<br><br>
+<b>Personality</b><br>
+She is a very nuetral person with her own set of morals and beliefs. While she is kind, caring, loyal, and loving to the people, places, and things that find themselves in her favor, she is very cold, crude, and violent toward the things that don't. Most often she finds herself in controversies she doesn't wish to have thanks to her neutral standpoint; if it doesn't benefit her, she sees no need to pursue it.
+</div>
+
+<div id="tab2">
+<img style="width:100%;margin-top:8%;border-radius:20%;" src="http://i.imgur.com/BqnGKr2.png"/>
+</div>
+
+<div id="tab3">
+<h1>The Birth of "X"</h1>
+There is a spiritual being that exists between the realms of the living and the dead, the mortal and the supernatural. This creature is known simply as a key. Its origins aren't fully known, but research and comparison between all forms of lore in which it reveals itself, has given us the ability to piece together and theorize where it all began. 
+<br><br>
+We believe that in the beginning when the worlds were formed, there was no line to separate life from death, beginnings and ends. Any beings that lived at the time passed between possibilities and true free will was accessible to anyone and everyone. For awhile, this worked out very well and all the beings lived in peace with each other, until greed and lust for power overcame them and they began killing each other off.
+<br><br>
+The higher beings--perhaps fate and destiny themselves--decided it was time to draw lines between the realms to limit the powers of all future existences. These lines have become what we know now as the divides between dimensions. Once again there was a peace, but it was short lived. The inhabitants of each dimension soon learned how to bypass the divides and cast wars on each other across the worlds, so the higher beings once again interfered. They created a new race to live and thrive within the divides to guard the pathways between.
+<br><br>
+Even these beings, however, would soon learn about power and develop their own motives. So the higher powers banded together to make another higher being to sit as a lawmaker, a monarchy--an oracle if you will--to rule over the guardians of the divide. They granted this new higher being special abilities and named her "X."
+<br><br>
+This is what we believe to be the origin of the creature you are here to meet.<br><br>
+
+<h1>Will-o'-the-Wisps</h1>
+The "Will-O'-The-Wisps"--Wisps to shorten that up--were the guardians the higher beings created to live within the divide. 
+<br><br>
+Small orbs of aura-like energy that glow in the darkness and fade in the light. They are simple spirits that communicate through movement and color. Wisps can come in almost every color out there, their color allows them to recognize each other's jobs in their simple society. 
+<br><br>
+They each have been granted knowledge but cannot communicate by word-of-mouth. Throughout the earlier mentioned lore it has been revealed that if one desires to learn the knowledge a Wisp has appeared to give them, they must simply follow the creature. This simple fact has dubbed the guardians the "Guides of Destiny" or "Guides of Knowledge" in multiple cultures. 
+<br><br>
+Wisps do have a language, but they can only speak among their own kind. Well, I suppose they could speak anywhere really but can only be heard by their own. They have a fascinating method of speech. They spread sound waves by quickly flickering their auras. To any other ear it would sound like the snapping of fingers or the crackling of a flame, but to each other every flicker unlocks a whole new language.
+<br><br>
+Wisps are not bound by morals, but simple laws set by their queen. They will lead someone to further knowledge or even death without a second thought and lack the capabilities for emotional attachments. They are motivated by one thing, and one thing only: obey the queen.
+</div>
+
+<div id="tab4">
+<img style="height:100%;margin-left:8%;" src="http://i.imgur.com/GyPqSyb.png"/>
+</div>
+
+<div id="tab5">
+<h1>The Powers of a Wisp Queen</h1>
+<b>Passing Days</b><br>
+Day and night, sun and moon, no longer affect whether or not X has a physical form or an ethereal form. While her ethereal form is still attainable and still very weak and vulnerable to magic, she can now choose whether she will take on her physical humanoid form or her spiritual one. Her ethereal form is still how she regenerates energy and regains the health she needs to stay alive, so she cannot go without taking this form for long periods of time. <br><br>
+<b>Self Healing</b><br>
+If X is hurt by natural means ONLY--in other words, is not hurt with magic but gets the flu or is stabbed with a knife by a non-mage human or a non-enchanted weapon--when she changes into her pure energy form at night the injuries and illnesses no longer remain and the next morning her human body is as good as new.<br><br>
+<b>Mana Sensitivity</b><br>
+Wisps are sensitive to other beings who use mana. While they cannot sense specifics, the use of mana in an area can leave behind a detectable imprint allowing them to track much like a dog does with a scent.<br><br>
+<b>Tireless</b><br>
+Wisps do not need sleep to regenerate, just being in their spirit forms allows them to regenerate energy healthily--only as much energy as sleep would regenerate for a human--and do not need to eat unless they are exerting excess energy while in their human forms. <br><br>
+<b>Ageless</b><br>
+A Wisp chooses which human-equivalent age they wish to stay and stop physically and mentally aging once they reach that point. This is why Wisps are often depicted as children--many wish to stay young and innocent. X herself chose the age of 24. 
+<h1>Universal Spells</h1>
+<b>Aura</b><br>
+Every living thing has mana, and the colors of their mana and their aura vary from person to person. X's mana is always a very pale blue color, but varies in its shades depending on her mood.
+<i>"Light (sky) blue: peace, serenity, ethereal, spiritual, infinity 
+(The origin of these meanings is the intangible aspects of the sky.)" </i><br>
+Of all universal auras, there are a standard three that have been taught to mages for hundreds of years: A Utility Aura, an Offensive Aura, and a Defensive Aura. <br>
+<b>Utility Aura</b><br>
+Cast by concentrating on the mind itself, both in a figurative and literal sense. Casters will start by weaving mana directly into their brains, allowing the aura to expand throughout their entire body, flowing directly from the top of their heads. The aura will take a very liquid-like appearance while this spell is cast, flowing downwards over the body in a smooth, gentle motion. The aura will glow lightly, being slightly visible in direct light, but bright enough to glow during the darkness. With the aura up, it increases a being's reflexes and overall agility. The aura will make a person feel extremely awake and alert, and increase their visual perception slightly. This aura will last for a period of four posts, and can be upheld for another four by charging it with mana (expending the cost to bring it up over again). 
+<br>
+<b>Defensive Aura</b><br>
+Cast by concentrating on the very thing that keeps you standing. In most cases, this means the caster must begin by weaving mana directly into their spine, and allow it to flow into the rest of their body. This aura takes an extremely solid and rigid appearance; it will form around your entire body like a suit of armor, and does not contain an ethereal glow, rather a shine very similar to polished metal. The spine itself will glow slightly, and pulse, causing energy to run throughout the aura. Takes two turns to cast (one turn to prepare weaving mana into the epicenter, and one post allowing the aura to fully take effect). With the aura up, it is able to provide a x1.5 defense against physical based attacks (both natural and physical mana) as well as a x1.25 defense against energy based attacks. While this aura is active, the user will become more heavy and grounded, making it much harder to stagger or knock them down. As an added bonus, the casters pain tolerance increases significantly. This aura will last for a period of four posts, and can be upheld for another four by charging it with mana (expending the cost to bring it up over again). 
+<br>
+<b>Offensive Aura</b><br>
+Cast by concentrating your focus toward the very thing that gives you life. Although various creatures have vital organs in different areas, the most common place for the aura to originate from is the chest, directly in the center. For humans and other similar beings, the heart itself acts as the conduit. The caster must weave mana directly into this organ (or simply a space on the front of their chest) and allow it to spread throughout their entire body. This aura is extremely volatile in nature, and appears very similar to flames covering the beings entirety, crackling and flaring haphazardly around them.Takes two turns to cast (one turn to prepare weaving mana into the epicenter, and one post allowing the aura to fully take effect). With the aura up, it is able to provide a slight boost (x1.5) to a person's physical strength, as well as their casting speed (this does not work for spells that require multiple posts to charge), and spell damage (around x1.25 more power, does not increase the rank of spells). The aura will make a person feel extremely warm and accelerated, creatures who possess hearts and similar organs will find that they will beat extremely fast while the aura is up. This aura will last for a period of four psts, and can be upheld for another four by charging it with mana (expending the cost to bring it up over again). 
+<br><br>
+<b>Mana Weave</b><br>
+The simple act of moving one's mana pool through their own body. Channeling one's mana. 
+<br><br>
+<b>Mana Spark</b><br>
+Basic mana projectile that can be used offensively or defensively.<br><br>
+<b>Mana Target</b><br>
+A small dot of mana that acts as a guide for one's magic. Wherever this target is placed, no matter where or what direction the spell is cast, it will hit the Mana Target.<br><br>
+<b>Mana Beacon</b><br>
+A strong burst of mana used like a distress signal. Nearby mages can feel the beacon and will come to aid the caster.
+</div>
+
+<div id="tab6">
+<img style="width:100%;margin-top:3%;border-radius:20%;" src="http://vignette3.wikia.nocookie.net/pixar/images/c/ca/Wisp_concept_01.png"/>
+</div>
+
+<div id="tab7">
+<h1>Spiritual Ease; Archmage</h1>
+<b>Call of the Living</b><br>
+Congratulations, X has finally obtained the ability to revive students, now that she can combine aspects of both Faith and Spiritualism together into a whole new Tree! When a student's body is no longer capable of holding its spirit--basically they die--then X can weave her mana into the corpse. This act allows her to read everything she can about the passed on mage's identity, and collect all the information she needs to not only heal the body so it can live again, but also know which spirit in the vast number to call. After summoning the spirit belonging to the body back to where its dead flesh remains and giving it the choice to stay dead or return to life, she will then begin renewing the connection between both entities by healing the body so the spirit may successfully inhabit it once more!<br><br>
+<b>Diamond Rush</b><br>
+X creates a basketball sized hollow orb. Don't let this fact, and the fact that it is translucent and looks very much like glass, fool you. The walls of this sphere are strong barriers made by an archmage Faith spell. When the surface of these orbs are hit by magical, physical, or even spiritual based attacks, the attack will just be reflected back. These orbs can be manipulated by X telepathically for a ten foot radius around her body, are as tough as Tungsten, can be charged up to be used like projectiles, and can reach speeds of up to 120 MPH maximum. The orb itself isn't the cause for concern, however, it is what is inside the orb. When forming Diamond Rush, X must first ask spirits for favors: if they would lend themselves to be temporarily enclosed in these orbs. These spirits are all toxic based, and if they agree to be enclosed inside and the orb is broken, a thick smog of green haze will explode from within and spread around naturally in the air like gas. Inhaling this smog will cause a fast deterioration of the lungs and great discomfort in the throat. X can have up to four Diamond Rush orbs summoned at once.<br><br>
+<b>Shooting Star</b><br>
+When casting this spell, a soft glitter-like substance will fall like rain from ten feet above ground. This "rain" has two modes, the first being a Faith spell. Mages affected by the Faith mode, will have minor wounds quickly healed, and more major wounds if they stay under the spell for long enough time. Mages affected by the Spiritualism mode will be greeted with icy shards of Spirit Force. These shards are cold enough to cause burning of the skin if a mage is under the glitter for long enough. X is not only able to pick and choose which mages within the radius are affected by this spell, but she can also use both modes simultaneously for a much higher mana cost.
+
+<h1>Faith; Archmage</h1>
+<b>Repair</b><br>
+A simple spell that allows X to mend wounds in any organic substance.<br><br>
+<b>Cleanse</b><br>
+A spell that allows X to cleanse infected organic material. Infections that can be cleansed are physical or magical--like deceptions, hexes, and hostile mana--as long as they're the same rank or below her.<br><br>
+<b>Wall</b><br>
+A magic shield of mana that can reflect attacks from mages the same rank as X herself or lower back in the original direction of trajectory. While it can vary in size, the biggest she can possibly make this wall is only two feet above her head and in a five foot radius around her body.<br><br>
+<b>Warrior's Blessing</b><br>
+A spell that acts as a boost. This spell allows other mages a slight boost in physical strength. Cannot be cast on herself.<br><br>
+<b>Athlete's Blessing</b><br>
+Another boost spell. This spell allows other mages a slight boost in physical endurance. Cannot be cast on herself.<br><br>
+<b>Renew</b><br>
+If an organic substance is missing parts of its original whole body (i.e. a human missing an arm or leg) then this spell allows X to regenerate an entire section of that organic body that is missing. This also goes for internal organic material (such as broken bones being healed/mended).<br><br>
+<b>Tension Reliever</b><br>
+If this spell is being cast, a gentle refreshing mist will form, thick enough to cause a slight disruption of sight, but not enough to cause any trouble or confusion. The spell merely acts as a calming agent, loosening tightened muscles, lowering adrenaline levels slightly, and calming nerves. The spell works primarily on the specific person it's being cast on, but if others are present they can be slightly affected by the spell. Any Deception Magic or Curses of equal rank to her or lower will be broken off of whomever this spell is cast on.<br><br>
+
+<h1>Spiritualism; Mage</h1>
+<b>Communication</b><br>
+The simple ability to see and talk with spirits who do not have tangible forms.<br><br>
+<b>Summon</b><br>
+The ability given to all Spiritualism mages that allows them to summon spirits to aide them.<br><br>
+<b>Healing Contract:</b><br>
+X contacts a spirit and asks them to look inside an injured person for her. This spirit can tell her what kind of unseen damage has been done to their organic body.
+<br><br>
+<b>Soul Cleanse</b><br>
+Finally X has achieved high enough rank in Spiritualism to experience the wonders of Spirit Force! This spell allows her to cleanse any damage done to sentient things on a spiritual level rather than physical. So long as the cause of the damage was the same rank as her or lower. (This must be done via communicating with spirits and asking them to lend their purifying force. One charge cast up, next post puts spell into effect.)
+<br><br>
+<b>Pulse Diagram</b><br>
+This spell allows her to see the internal functions and status of any organic body so long as she weaves her mana through them. (The diagram X recieves in her mind is completely sonar, much akin to giving an ultrasound.)
+<br><br>
+<b>Thermal Redact</b><br>
+X makes a request of an ice spirit, if they agree they will very slowly absorb all the thermal energy within a ten foot radius. (One post charge up, second post makes spell effective.)
+<br><br>
+<b>Flash Bang</b><br>
+Another request from a spirit, this spirit calls on the power of photokinetics to burst into a bright flash of light that would temporarily blind the average human for about five seconds. 
+<br><br>
+<b>Hidden</b><br>
+X requests of a spirit to use its powers to hide something within itself, meaning only specific mages of any rank would be able to see what is hidden. (Spiritualists, Necromancers, and any mage one rank higher than X with sensory abilities. First post charges, second post casts. )
+</div>
+
+<div id="tab8">
+<img style="height:100%;margin-left:5%;" src="http://i.imgur.com/WmsQfVq.png"/>
+</div>
+
+<div id="tab9">
+<h1>Mediums</h1>
+<b>Spirit Stone</b><br>
+A blue stone about the size of an American Quarter and shaped like a teardrop, hangs around her neck on a silver chain. This Spirit Stone can channel and hold Faith Magic and increases the effects of the magic, acting as a boost and allowing each Faith Spell to be more powerful than usual. If X lifts the stone to her mouth and speaks through it to specific spirits, it allows her to contact them faster. (Reduces summoning spirits to one post per spirit.)
+</div>
+
+<div id="tab10">
+<img style="height:100%;margin-left:15%;" src="http://i.imgur.com/yO2wZkg.png"/>
+</div>
